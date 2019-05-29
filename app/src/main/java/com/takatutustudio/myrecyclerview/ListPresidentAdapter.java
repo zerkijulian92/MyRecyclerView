@@ -34,6 +34,7 @@ public class ListPresidentAdapter extends RecyclerView.Adapter<ListPresidentAdap
     @Override
     public CategoryViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         View itemRow = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.item_row_president, viewGroup, false);
+        return new CategoryViewHolder(itemRow);
     }
 
     @Override
