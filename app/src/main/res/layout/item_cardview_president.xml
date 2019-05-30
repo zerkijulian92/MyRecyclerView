@@ -27,6 +27,7 @@
             tools:src="@color/colorAccent" />
 
         <TextView
+            android:id="@+id/tv_item_name"
             android:layout_toRightOf="@+id/img_item_photo"
             android:layout_toEndOf="@+id/img_item_photo"
             android:layout_width="match_parent"
@@ -38,6 +39,18 @@
             android:layout_marginBottom="8dp"
             android:layout_marginRight="@dimen/activity_vertical_margin"
             android:layout_marginLeft="@dimen/activity_vertical_margin" />
+
+        <TextView
+            android:layout_below="@id/tv_item_name"
+            android:layout_toRightOf="@id/img_item_photo"
+            android:layout_toEndOf="@id/img_item_photo"
+            android:id="@+id/tv_item_remarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Remarks"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
